@@ -54,3 +54,21 @@ Project Files
 [View Excel Sales Analysis Project](https://docs.google.com/spreadsheets/d/18wXX0CZLxv7-N4U4TbnQaiefTyXWDOYa/edit?usp=sharing&ouid=113194955293790286634&rtpof=true&sd=true)
 
 ![Excel Sales Dashboard](%7B31C2619E-B466-4029-BF93-506E19FE0400%7D.png)
+
+## 📊 Project Overview
+
+This project analyses sales data using Microsoft Excel to identify revenue trends, customer behaviour, and business performance.
+
+## 🛠️ Tools Used
+- Microsoft Excel
+- PivotTables
+- Data Cleaning
+- Charts and Dashboards
+
+## 🔍 Key Insights
+- Identified the highest revenue-generating customer group.
+- Analysed monthly sales performance.
+- Used visualisations to communicate business trends.
+
+## 📁 Project File
+[View Excel Sales Analysis Project](https://docs.google.com/spreadsheets/d/18wXX0CZLxv7-N4U4T4bnQaiefTyXWDOYa/edit?usp=sharing&ouid=113194955293790286634&rtpof=true&sd=true)
