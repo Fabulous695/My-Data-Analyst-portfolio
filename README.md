@@ -72,3 +72,21 @@ This project analyses sales data using Microsoft Excel to identify revenue trend
 
 ## 📁 Project File
 [View Excel Sales Analysis Project](https://docs.google.com/spreadsheets/d/18wXX0CZLxv7-N4U4T4bnQaiefTyXWDOYa/edit?usp=sharing&ouid=113194955293790286634&rtpof=true&sd=true)
+
+⸻
+
+💻 SQL Data Analysis Project
+
+Project Overview
+
+This project demonstrates my ability to use SQL to explore, query, and analyse data. It focuses on extracting meaningful information from datasets and using structured queries to support data-driven insights.
+
+Skills Demonstrated
+
+* Writing SQL queries
+* Data exploration and analysis
+* Filtering and retrieving data
+* Working with structured datasets
+* Extracting meaningful insights
+* ### 📂 Project Files
+[View My SQL Project](./akanbi%20gbenga%20project.sql)
