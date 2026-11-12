@@ -3,7 +3,7 @@
 --- production. As a new hired Data Analyst, they want you to pull only the 
 --- unique product lines. Write a query for this. 
 
-select count(productLine) as unique_productline
+select distinct productline
 from products;
 
 
@@ -38,7 +38,7 @@ where customernumber = 103 and status = 'shipped';
 
 select employeenumber, lastname, firstname, jobtitle
 from employees
-where jobtitle ='sales rep' or 'marketing manager';
+where jobtitle in ('sales rep' ,'marketing manager');
 --- after i was able to retrive the jobtitles of the given condition i found that there is no marketing manager in the employee tabke in the jobtitle
 
 
@@ -56,7 +56,8 @@ where jobtitle ='sales rep' or 'marketing manager';
 
 select contactlastname, contactfirstname, creditlimit
 from customers
-where creditlimit > 100000
+where country ='usa'
+and creditlimit > 100000
 order by contactlastname asc;
 
 
@@ -83,7 +84,7 @@ group by productline;
 --- the results to include products with a total number of units sold greater than 500
 
 select productname, sum(buyprice*quantityInStock) as total_num_of_units_sold
-from products
+from products 
 group by productname
 having total_num_of_units_sold > 500;
 
@@ -99,8 +100,6 @@ from products as p
 left join orderdetails as od
 on p. productcode = od. productcode
 where p. productcode ='S10_1678' and p. msrp > od. priceeach;
-
-
 
 
 
@@ -145,10 +144,11 @@ order by o. customernumber asc;
 
 --- Which Year, Month and day of the week did the store had the most shipped orders
 
-select year(shippedDate), monthname(shippedDate) as month, dayname(shippedDate) as days_of_the_week
-from orders
-order by shippedDate desc;
-
+SELECT YEAR(shippedDate) AS year,MONTHNAME(shippedDate) AS month,DAYNAME(shippedDate) AS day_of_week,COUNT(*) AS total_shipped_orders
+FROM orders
+WHERE status = 'Shipped'
+GROUP BY YEAR(shippedDate),MONTHNAME(shippedDate),MONTH(shippedDate),DAYNAME(shippedDate),DAYOFWEEK(shippedDate)
+ORDER BY total_shipped_orders DESC;
 
 
 
