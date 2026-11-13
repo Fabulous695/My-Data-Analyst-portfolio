@@ -99,3 +99,9 @@ Project Files
 
 ### 📂 Project Files
 [View My SQL Project](./akanbi%20gbenga%20project.sql)
+
+## 🏆 Certifications
+
+### Excel Certificate
+
+![Excel Certificate](92eed45f-3319-47d5-80e7-aaf3d86ea1a5.jpg)
